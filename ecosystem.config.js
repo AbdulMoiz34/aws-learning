@@ -6,6 +6,7 @@ export default {
             instances: "max",
             autorestart: true,
             watch: false,
+            cwd: "./",
             env: {
                 NODE_ENV: "production"
             }
