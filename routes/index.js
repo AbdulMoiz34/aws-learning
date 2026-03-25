@@ -5,7 +5,7 @@ import sum from "../sum.js";
 const router = Router();
 
 router.get("/", (_, res) => {
-    return res.status(200).send("Api is running...");
+    return res.status(200).json({ message: "Api is running..." });
 });
 
 router.get("/getSum/:a/:b", (req, res) => {
